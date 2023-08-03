@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "animeVideo",
+    "slug": "animeVideo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/play_store_512.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash_new.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/play_store_512.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.animeVideo"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9849d5ca-33df-4a5f-bcb3-bf802a1bc5ac"
+      }
+    }
+  }
+}
